@@ -8,3 +8,5 @@ output/css/style.css
 output/images
 input/images
 gulpfile.js
+package-lock.json
+package.json
