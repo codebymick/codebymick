@@ -24,11 +24,11 @@
 }
 }
 .jumbotron{
-  @include backImage('../images/Ebene39.png', 
+  @include backImage('../images/dots.png', 
   600px);
 }
 .bridge{
-  @include backImage('../images/Ebene40.png', 
+  @include backImage('../images/dots.png', 
   300px, top center);
 }
 
