@@ -29,7 +29,7 @@ gulp.task('php', function() {
 gulp.task('sass', function () {
     return sass('input/style.scss', {
       sourcemap: true,
-      style: 'expanded'
+      style: 'compressed'
     })
     .on('error', function (err) {
         console.error('Error!', err.message);

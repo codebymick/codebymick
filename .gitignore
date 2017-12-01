@@ -7,3 +7,4 @@ slides/**
 output/css/style.css
 output/images
 input/images
+gulpfile.js
