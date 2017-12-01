@@ -4,4 +4,6 @@ node_modules
 .sass-cache
 images/**
 slides/**
-builds/sassEssentials/css/style.css
+output/css/style.css
+/output/images/**
+/input/images/**
