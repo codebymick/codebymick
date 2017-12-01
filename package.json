@@ -22,7 +22,7 @@
     "gulp-jsonminify": "^1.0.0",
     "gulp-minify-html": "^1.0.6",
     "gulp-ruby-sass": "^2.1.1",
-    "gulp-uglify": "^3.0.0",
-    "imagemin-pngcrush": "^5.1.0"
+    "imagemin-pngcrush": "^5.1.0",
+    "uglify-js": "^3.2.0"
   }
 }
