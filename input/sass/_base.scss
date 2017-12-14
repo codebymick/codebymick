@@ -17,4 +17,7 @@ body {
   width: 80%;
   margin: 0 auto;
 }
-
+div.foor{
+    -webkit-transform: rotateY(130deg); /* Safari */
+    transform: rotateY(130deg);
+}
