@@ -31,30 +31,33 @@
 
   <body>
     <script>
-    var vid = document.getElementById("bgvid");
-    var pauseButton = document.querySelector("#polina button");
-    //vid.playbackRate = '1';
-    function vidFade() {
-      vid.classList.add("stopfade");
-    }
+        var vid = document.getElementById("bgvid");
+        var pauseButton = document.querySelector("#polina button");
+        vid.playbackRate = .6;
 
-    vid.addEventListener('ended', function() {
-      // only functional if "loop" is removed 
-      vid.pause();
-      // to capture IE10
-      vidFade();
-    });
+        function vidFade() {
+            vid.classList.add("stopfade");
+        }
 
-    pauseButton.addEventListener("click", function() {
-      vid.classList.toggle("stopfade");
-      if (vid.paused) {
-        vid.play();
-        pauseButton.innerHTML = "Pause";
-      } else {
-        vid.pause();
-        pauseButton.innerHTML = "Paused";
-      }
-    })
+        vid.addEventListener('ended', function() {
+            // only functional if "loop" is removed 
+            vid.pause();
+            // to capture IE10
+            vidFade();
+        });
+
+
+        pauseButton.addEventListener("click", function() {
+            vid.classList.toggle("stopfade");
+            if (vid.paused) {
+                vid.play();
+                pauseButton.innerHTML = "Pause";
+            } else {
+                vid.pause();
+                pauseButton.innerHTML = "Paused";
+            }
+        })
+
     </script>
 
     <div id='header' class='mmfixed front'>
@@ -71,7 +74,7 @@
     
     <div id="main">
       <div id="blurb" class="outerWrap">
-        <video muted poster="http://www.codebymick.com/images/movie/desktop.png" id="bgvid" playsinline autoplay muted loop><source src="./images/movie/deck-vid.m4v" type="video/mov">
+        <video muted poster="https://www.codebymick.com/images/movie/desktop.png" id="bgvid" playsinline autoplay muted loop><source src="./images/movie/deck-vid.m4v" type="video/mov">
         </video>
         <div class="container center half">  
           <h1>Web Developer.</h1>
@@ -112,5 +115,6 @@
       <a>codebymick&copy; 2018</a>
     </div>
     <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
