@@ -1,0 +1,1113 @@
+/*********#fffmick.com STYLESHEET ----------
+-------------2017****************/
+
+
+/* UNIVERSAL_______________
+*/
+
+html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    color:none;
+}
+
+body {
+    font-family: 'Sue Ellen Francisco', cursive;    margin: 0;
+    background: #f2994a;
+    background: -webkit-linear-gradient(top left,#f2994a,#f2c94c);
+    background: -moz-linear-gradient(top left,#f2994a,#f2c94c);
+    background: linear-gradient(top left,#f2994a,#f2c94c);            
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: 'Sue Ellen Francisco', cursive;
+  }
+
+*:focus {
+    outline: none
+}
+
+
+/*  BODY_____________________
+_____________________________
+_____________________________*/
+
+.outerWrap {
+    width: 100%;
+    
+}
+
+.container {
+  padding: 0 40px;
+  margin: auto;
+  position: relative;
+  height: inherit;
+  color: #fff;
+  text-align: center;
+}
+
+.back {
+    z-index: 1;
+}
+
+.mid {
+    z-index: 3;
+}
+
+.front {
+    z-index: 9;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.thin {
+    height: 50px;
+    line-height: 50px;
+}
+
+.thinner {
+    height: 40px;
+    line-height: 40px;
+}
+
+.thick {
+    height: 80px;
+    line-height: 80px;
+}
+
+.thicker {
+    height: 75px;
+    line-height: 75px;
+}
+
+.column {
+    width: 33.3333%;
+    float: left;
+}
+
+.left {
+    left: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+.right {
+    float: right;
+    display: inline-block;
+    text-align: right;
+}
+
+.center {
+    margin: auto;
+}
+
+.quart {
+    width: 30%;
+}
+
+.half {
+    width: 50%;
+}
+
+.threequart {
+    width: 75%;
+}
+
+.whole {
+    width: 100%;
+}
+
+.onethird {
+    width: 30%;
+}
+
+.twothird {
+    width: 66.67%;
+}
+
+.clear {
+    clear: both;
+}
+
+.padT {
+    padding-top: 20px;
+}
+
+.padR {
+    padding-right: 20px;
+}
+
+.padB {
+    padding-bottom: 20px;
+}
+
+.padL {
+    padding-left: 20px;
+}
+
+.marT {
+    margin-top: 1.9%;
+}
+
+marB {
+    margin-bottom: 1.9%;
+}
+
+.marR {
+    margin-right: 1.33%;
+}
+
+marL {
+    margin-left: 1.33%;
+}
+
+#bgvid {}
+
+.button {
+    height: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 3px;
+    font-size: 10px;
+    position: relative;
+}
+
+
+/*   FONTS________________
+__________________________
+__________________________
+__________________________
+__________________________*/
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Sue Ellen Francisco', cursive;    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    font-size: 34px;
+    text-transform: uppercase;
+    color: black;
+    padding-top: 140px;
+    margin-bottom: 30px;
+    letter-spacing: .3rem;
+}
+
+h2 {
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+p {
+    color: #5b5b5b;
+}
+
+p strong {
+    color: #5b5b5b;
+    text-align: center;
+    font-weight: 700
+}
+
+.light h1,
+.light h2,
+.light h3,
+.light p,
+.light strong,
+.light li,
+.light a {
+    color: black;
+}
+
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+.light {
+    color: black;
+}
+
+.dark {
+    color: red;
+}
+
+.center {
+    width: 90%;
+}
+
+#blurb {
+    height: auto;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+}
+
+#blurb,
+p {
+    font-family: 'Sue Ellen Francisco', cursive;
+    text-align: center;  
+}
+
+
+/*   IMAGES/LOGOS
+__________________________
+__________________________
+__________________________
+__________________________*/
+
+.picFormatL {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 390px;
+    width: 90%;
+    margin: 0 20px 0 20px;
+}
+
+.picFormatCERT {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 90%;
+}
+
+.picFormatS {
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    float: left;
+    display: inline-block;
+}
+
+.logo {
+    background-image: url('../images/ico/logoMW.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 1;
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    position: absolute;
+    clear: none;
+}
+
+.mobileL {
+    display: none;
+}
+
+.deskL {
+    float: left;
+    position: relative;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.mobileR {
+    display: none;
+}
+
+.deskR {
+    float: right;
+    position: relative;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+
+.mobile {
+    display: hidden;
+}
+
+.desk {
+    float: left;
+    position: relative;
+    margin: auto;
+    position: absolute;
+    width: 100%
+}
+
+.clearfix {
+  content: "";
+}
+
+
+/* HEADER
+________________________________________
+________________________________________
+________________________________________
+________________________________________*/
+
+#header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    position: fixed;
+    padding-bottom: 0;
+}
+
+#header.sticky {
+    position: fixed;
+}
+
+#header .headline {
+    background: rgba(0, 0, 0, .7)
+}
+
+#header.sticky .headline {
+    display: none;
+}
+
+header {
+    background: black;
+    opacity: .7;
+    display: inline-block;
+    float: left;
+}
+
+header ul {
+    display: inline-block;
+    list-style: none;
+    text-transform: uppercase
+}
+
+header li {
+    display: inline-block;
+    text-align: right;
+    opacity: .6;
+}
+
+header li a {
+    display: inline
+}
+
+header li img {
+    width: 30px;
+    margin-right: 4px
+}
+
+header li.active {
+    opacity: 1;
+}
+#header .background {
+    background: url(../images/movie/codebymick-anim3.png) no-repeat;
+    height: 85px;
+    width: 40%;
+    top: 0;
+    left: 0;
+    transform: scale(.5);
+    transform-origin: 40px 0 0;
+}
+.history.dropbtn,
+a {
+    color: black;
+}
+
+
+/* NAV BAR
+________________________________________
+________________________________________
+________________________________________
+________________________________________
+________________________________________*/
+
+
+nav {
+    opacity: .9;
+    float: right;
+    display: inline-block;
+    text-align: right;
+    padding-bottom: 0;
+    z-index: 9;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    z-index: 3;
+    width: 100%;
+    float: right;
+    padding-bottom: 0;
+}
+
+nav li {
+    text-transform: uppercase;
+    z-index: 999;
+    border-radius: 20px;
+}
+
+nav li a,
+.dropbtn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+    font-family: 'Amatic SC', cursive;
+}
+
+nav li a :hover {
+    background-color: #218307;
+    border-radius: 20px;
+    line-height: 20px;
+    color: limegreen;
+}
+
+.dropbtn {
+    color: #fff;
+}
+
+#burger {
+  top: 20px;
+  position: absolute;
+  right: 20px;
+}
+
+div.ddown-content {}
+
+.dbtn {
+    display: none;
+}
+
+
+/* ------------------------------*/
+
+li.home {
+    display: inline-block;
+    position: relative
+}
+
+.home-content {
+    display: none;
+    position: fixed;
+    color: black;
+    min-width: 100px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+}
+
+.home-content a:hover {
+    color: limegreen;
+    background-color: #218307;
+    text-decoration: none;
+    display: block;
+    border-radius: 20px;
+}
+
+.home-content a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+
+.home:hover .home-content {
+    display: block;
+}
+
+li.links {
+    display: inline-block;
+}
+
+.links-content {
+    display: none;
+    position: fixed;
+    color: black;
+    min-width: 100px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+}
+
+.links-content a:hover {
+    color: limegreen;
+    background-color: #218307;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-radius: 20px;
+}
+
+.links-content a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.links:hover .links-content {
+    display: none;
+}
+
+/******************************/
+
+
+li.contact {
+    display: inline-block;
+}
+
+.contact-content {
+    display: none;
+    position: fixed;
+    color: black;
+    min-width: 100px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+}
+
+.contact-content a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.contact-content a:hover {
+    color: limegreen;
+    background-color: #218307;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-radius: 20px;
+}
+
+.contact:hover .contact-content {
+    display: block;
+}
+
+
+/********   MAIN   **************/
+
+#main {
+    z-index: -9;
+}
+.main .background {
+    background: url(../images/anim/brackets.png) no-repeat;
+    height: 85px;
+    position: absolute;
+    float: left;
+    clear: none;
+    width: 18%;
+    z-index: -9;
+    left: -200px;
+    transform: rotate(135deg);
+    top: 400px;
+}
+
+
+/********** ANIMATION COMMON **************/
+
+
+
+.play :hover {
+    position: relative;
+    width: 100%;
+    margin-left: 30%;
+    top: 10em;
+    transform: scale(1);
+}
+
+.quote {
+    top: 0;
+    position: absolute;
+    filter: invert(1);
+    -webkit-filter: invert(1);
+    -moz-filter: invert(1);
+    -o-filter: invert(1);
+}
+
+.quote1 {
+    transform: scale(1);
+}
+
+#anim {
+    z-index: -8;
+    position: fixed;
+    width: 88%;
+}
+
+@-webkit-keyframes sign-anim {
+    to {
+        background-position: 0 -7140px;
+    }
+}
+
+@-moz-keyframes sign-anim {
+    to {
+        background-position: 0 -7140px;
+    }
+}
+
+@keyframes sign-anim {
+    to {
+        background-position: 0 -7140px;
+    }
+}
+
+#replay {
+    position: absolute;
+    z-index: 9999;
+    bottom: -45px;
+    left: 0;
+    display: inline-block;
+    padding: 10px;
+    background: rgba(240, 240, 240, 0.44);
+    border: 1px solid #BABABA;
+    color: #696969;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .6em;
+    -moz-transition: left 6s cubic-bezier(1, 0.01, 1, 0.01);
+    -o-transition: left 6s cubic-bezier(1, 0.01, 1, 0.01);
+    -webkit-transition: left 6s cubic-bezier(1, 0.01, 1, 0.01);
+    transition: left 6s cubic-bezier(1, 0.01, 1, 0.01);
+}
+
+#replay:hover {
+    left: -100000%;
+    -moz-transition: none;
+    -o-transition: none;
+    -webkit-transition: none;
+    transition: none;
+}
+
+#replay:hover+.play {
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -webkit-animation: none !important;
+    animation: none !important;
+}
+
+
+/********   ANIMATION CONTENT   **************/
+
+.play a:hover {
+    transform: scale(1)
+}
+
+.inner h1 {
+    padding-top: 2em;
+}
+
+.inner p {
+    font-size: .7em;
+}
+
+.inner ul {
+    display: inline-flex;
+    overflow-x: scroll;
+    width: 100%;
+    margin: auto;
+    border: 2px 4px 3px #fff;
+    text-align: center;
+}
+
+.inner a {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/********BACKGROUND VID**************/
+
+video {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    height: inherit;
+    z-index: -100;
+    transform: translateX(-50%);
+    background: url('') no-repeat;
+    background-size: 100%;
+    transition: 1s;
+    opacity: .1;
+}
+
+#main {
+    position: relative;
+    overflow-y: hidden;
+    height: 800px;
+}
+
+
+#links {
+    position: relative;
+}
+#links .container{
+  margin: auto; 
+  display: block;
+  color: #fff;
+}
+#links a{
+  display: inline-block;
+  vertical-align: text-top;
+  padding: 10px 5px;
+  width: 30.3%;
+}
+.inner.bloq{
+  display: block;
+  float: left;
+}
+.inner.bloq:first-of-type{
+  margin-bottom: 15px;
+}
+
+.inner.bloq:last-of-type{
+  margin-top: 15px;
+}
+.block img{
+  width: 100%;
+  height: 200px;
+}
+
+.row{
+  padding: 10px 0 0;
+  margin: 0;
+}
+.row.r1{
+  
+}
+.row.r2{
+  
+}
+.row.r3 .third{
+  width: 32%
+}
+.row.r4{
+  
+}
+.stopfade {
+    opacity: .5;
+}
+
+
+
+#polina {
+    font-family: 'Sue Ellen Francisco', cursive;    font-weight: 100;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    padding: 2rem;
+    width: 33%;
+    margin: 2rem;
+    float: right;
+    font-size: 1.2rem;
+}
+
+#polina button {
+    display: block;
+    width: 80%;
+    padding: .4rem;
+    border: none;
+    margin: 1rem auto;
+    font-size: 1.3rem;
+    background: rgba(255, 255, 255, 0.23);
+    color: black;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#polina button:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#polina a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.5);
+    padding: .5rem;
+    transition: .6s;
+}
+
+#polina a:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+/*******BACKGROUND***********/
+
+.brackets {
+    animation: sign-anim 15.5s 0.2s steps(83) forwards;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    z-index: 9999;
+    opacity: 1
+}
+
+.playAnim {
+    animation: sign-anim 15.5s 0.2s steps(91) forwards;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    opacity: .2;
+}
+
+.play :hover {
+    position: relative;
+    width: 100%;
+    margin-left: 30%;
+    top: 10em;
+    transform: scale(5);
+    z-index: 9;
+}
+
+@-webkit-keyframes sign-anim {
+    to {
+        background-position: 0 -7140px;
+    }
+}
+
+@-moz-keyframes sign-anim {
+    to {
+        background-position: 0 -7140px;
+    }
+}
+
+@keyframes sign-anim {
+    to {
+        background-position: 0 -7140px;
+    }
+}
+
+#replay {
+    position: absolute;
+    z-index: 9999;
+    bottom: -45px;
+    left: 0;
+    display: inline-block;
+    padding: 10px;
+    background: rgba(240, 240, 240, 0.44);
+    border: 1px solid #BABABA;
+    color: #696969;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .6em;
+    -moz-transition: left 6s cubic-bezier(1, 0.01, 1, 0.01);
+    -o-transition: left 6s cubic-bezier(1, 0.01, 1, 0.01);
+    -webkit-transition: left 6s cubic-bezier(1, 0.01, 1, 0.01);
+    transition: left 6s cubic-bezier(1, 0.01, 1, 0.01);
+}
+
+#replay:hover {
+    left: -100000%;
+    -moz-transition: none;
+    -o-transition: none;
+    -webkit-transition: none;
+    transition: none;
+}
+
+#replay:hover+.play {
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -webkit-animation: none !important;
+    animation: none !important;
+}
+
+.quote cite {
+    color: #000;
+    font-family: 'Sue Ellen Francisco', cursive;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 110%;
+    font-size: 1.7em;
+    font-variant: small-caps;
+}
+
+.quote cite:before {
+    content: '’’';
+    position: absolute;
+    left: -120px;
+    top: 48px;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    font-size: 8em;
+    text-align: left;
+    font-family: 'Sue Ellen Francisco', cursive;    letter-spacing: -16px;
+    font-style: normal;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.1);
+}
+
+
+/*-- GALLERY  ------------*/
+
+#links .container span {
+    transform-origin: right;
+}
+
+#links span {
+    text-align: right;
+}
+
+#links a {
+    text-shadow: 1px 2px 15px #000;
+    -webkit-text-shadow: 1px 2px 15px #000;
+    -moz-text-shadow: 1px 2px 15px #000;
+    -o-text-shadow: 1px 2px 15px #000;
+    font-weight: 600;
+    font-size: 20px
+}
+
+#links a:hover {
+    -webkit-filter: invert(1);
+    opacity: .5
+}
+
+.frame-area {
+    display: inline-block;
+    width: 100%;
+    /* RESPONSIVE WIDTH */
+    max-width: 23%;
+    max-height: 20%x;
+    overflow: auto;
+    /* EDIT TO hidden FOR NO SCROLLBAR */
+    border: #999999 1px solid;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.gallery {
+    background-repeat: no-repeat;
+}
+
+.galleryIMG {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    margin: 10px;
+}
+
+.galleryIMG a {
+    text-decoration: none;
+    color: #000;
+    z-index: 9999;
+    height: 20px;
+    line-height: 20px;
+    bottom: 0;
+}
+
+.galleryIMG:hover {
+    text-decoration: none;
+    background-color: hidden;
+}
+
+.site1 {
+    background-image: url(../images/sites/r3fresh.jpg);
+}
+
+.site2 {
+    background-image: url(../images/sites/epsSCN.png);
+}
+
+.site3 {
+    background-image: url(../images/sites/kameleonSCN.png);
+}
+
+.site4 {
+    background-image: url(../images/sites/flowerSCN.png);
+}
+
+.site5 {
+    background-image: url(../images/sites/mebaySCN.png);
+}
+
+.site6 {
+    background-image: url(../images/sites/pflSCN.png);
+}
+
+.site7 {
+    background-image: url(../images/sites/quadSCN.png);
+}
+
+.site8 {
+    background-image: url(../images/sites/ubcoolSCN.png);
+}
+
+.site9 {
+    background-image: url(../images/sites/CVoogle.png);
+}
+
+.site10 {
+    background-image: url(../images/sites/links.png);
+}
+
+.site11 {
+    background-image: url(../images/sites/amznSCN.png);
+}
+
+.site12 {
+    background-image: url(../images/sites/freddymutnoshSCN.png);
+}
+
+.site13 {
+    background-image: url(../images/sites/.png);
+}
+
+
+/********FOOTER**************/
+
+#footer {
+    color: #000;
+    text-align: center;
+    bottom: 0;
+    z-index: 9;
+    font-size: 1em;
+    padding: .5em;
+    font-weight: 400;
+    width: 100%;
+    opacity: 1;
+    
+}
+
+#footer a {
+    text-decoration: none;
+    color: black;
+    z-index: 8;
+}
+
+#footer a:hover {
+    z-index: 8;
+}

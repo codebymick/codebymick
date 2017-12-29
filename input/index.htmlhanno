@@ -1,0 +1,164 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>codebymick - digitising design and ideas</title>
+  <!--<meta name="twitter:title" content="Hanno - A digital product design team">
+  <meta property="og:title" content="Hanno - A digital product design team" />
+
+  <meta name="description" content="We partner with mission-driven health and sustainability organisations to build and launch game-changing products." />
+  <meta name="twitter:description" content="We partner with mission-driven health and sustainability organisations to build and launch game-changing products.">
+  <meta property="og:description" content="We partner with mission-driven health and sustainability organisations to build and launch game-changing products." />
+
+  -->
+
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="htps://www.datocms-assets.com/639/1480918888-hano-banner.jpg" />
+  <meta property="og:site_name" content="codebymick" />
+
+  <meta property="og:url" content="https://codebymick.com" />
+  <link rel="canonical" href="/" />
+
+<!-- Set the viewport width to device width for mobile -->
+<meta name="Copyright" content="Copyright &copy; CODEBYMICK" />
+
+<link rel="shortcut icon" href="/images/favicon.ico" />
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Sue+Ellen+Francisco" rel="stylesheet">
+<!-- Pre-fetch the most likely next pages for a slicker experience -->
+<link rel="prefetch" href="/work/">
+<link rel="prefetch" href="/team/">
+
+
+  <link rel='stylesheet' href='style.min.css'/>
+
+  <!-- Credits: Thanks to Twitter for their excellent https://github.com/twitter/twemoji -->
+
+</head>
+
+<body class="index">
+
+  
+ <nav class="nav--new animated" role="navigation">
+
+    <a class="nav--new__home" href="/"><img src="" onerror="this.onerror=null; this.src=''" width="150" alt="codebymick logo"></a>
+
+    <ul class="" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+      <li itemprop="name"><a itemprop="url" href="/work">Work</a></li>
+      <li itemprop="name"><a itemprop="url" href="/folio">Folio</a></li>
+      <li itemprop="name"><a itemprop="url" href="/contact">Contact</a></li>
+    </ul>
+
+  </nav>
+
+
+
+  <main class="main--content">
+    <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "legalName" : "codebymick",
+  "name": "Mick",
+  "email": "codebymick@gmail.com",
+  "logo": "httos://codebymick.commedia/logos/meta-logo.svg",
+  "founder": {
+    "@type": "Person",
+    "name": "Mick White",
+    "gender": "Male",
+    "address": "Hessen, Germany",
+    "nationality": "Australian",
+    "url": "http://www.codebymick.com/",
+    //"image": "http://www.jonlay.com/assets/img/avatar.jpg"
+   },
+  "foundingDate": "1971-04-28",
+  "foundingLocation": "Hessen, Germany",
+  "taxID": "",
+  "vatID": "",
+  "url": "https://codebymick.co/",
+  "address": "Hessen, Deutschland",
+  "sameAs": [
+    
+  ],
+  /*"brand": [
+    {
+      "@type": "Organization",
+      "name": "PingPong UX",
+      "url": "https://hellopingpong.com/"
+    },
+    {
+      "@type": "Product",
+      "name": "Oskar - Track your team's happiness on Slack ",
+      "url": "http://oskar.hanno.co/"
+    },
+    {
+      "@type": "Product",
+      "name": "UX Designer Salaries ",
+      "url": "http://uxdesignersalaries.com/"
+    }
+  ]*/
+}
+</script>
+
+
+
+
+
+<header class="hero color-inverted spacing--medium hero--videobackground" data-video-mp4="/media/video/hanno-short.mp4" data-video-webm="/media/video/hanno-short.webm" data-video-ogv="/media/video/hanno-short.ogv" data-video-poster="/media/video/hanno-short-fb15fe3b.jpg" >
+
+  <div class="hero__content">
+
+    
+
+
+
+
+    
+    <h3 class="wow fadeIn push-down">Digital development team committed to making the internet beautiful.</h3>
+    <p class="lead wow fadeIn sequence-two">We partner with <strong> inspired </strong> and <strong>driven</strong> designers and developers and <strong>launch</strong> game-changing products.</p>
+    <a class="button white hollow wow fadeIn sequence-three push-up" href="/work">See how we do it <i class="fa fa-chevron-right hero__sticky-content__chevron"></i></a>
+  
+  </div>
+
+</header>
+
+
+
+
+<footer class="footer footer--meta text-center">
+
+  <div class="row column">
+
+    <nav role="navigation">
+      <ul class="inline-list footer--meta__links">
+        <!--<li><a href="http://twitter.com/wearehanno">Twitter</a></li>
+        <li itemprop="name"><a itemprop="url" href="/healthredesigned" title="The HealthRedesigned Podcast">Podcast</a></li>
+        <li itemprop="name"><a itemprop="url" href="/blog" title="The Logbook">Blog</a></li>
+        <li itemprop="name"><a itemprop="url" href="/jobs">Jobs</a></li>
+        <li itemprop="name"><a itemprop="url" href="/legal" title="Legal details">Legal</a></li>-->
+      </ul>
+    </nav>
+
+      <div class="row push-up">
+        <div class="medium-5 medium-centered columns">
+          <!--<p><strong>Want more Mick?</strong> Sign up for our newsletter on web design &amp; the future of work:</p>-->
+
+          <form class="push-up" action="https://hanno.createsend.com/t/j/s/udoly/" method="post" onsubmit="ga('send', 'event', { eventCategory: 'Newsletter', eventAction: 'Subscribe', eventLabel: 'footer'});">
+            <input class="signup-cta__email input-group-field" id="fieldEmail" type="text" name="cm-udoly-udoly" placeholder="you@email.com" required="">
+            <button class="signup-cta__button button" type="submit">Sign up</button>
+          </form>
+        </div>
+      </div>
+
+  </div>
+</footer>
+
+  </main>
+
+  <script src='js/script.min.js'></script>
+
+</body>
+</html>

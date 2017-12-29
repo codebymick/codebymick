@@ -1,7 +1,6 @@
 /* load fonts  */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto|Vollkorn+SC');
-
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Sue+Ellen+Francisco');
 $offwhite: #ffffff;
 $darkblue: #000;
 $red: red;
@@ -13,9 +12,9 @@ $menu-background: #000;
 $color-backgrounds: red;
 $sectionborder: brown;
 
-$font-main: 'Roboto', sans-serif;
-$font-sub: 'Vollkorn SC', serif;
-$font-highlight: 'Roboto', sans-serif;
+$font-main: 'Sue Ellen Francisco', cursive;
+$font-sub: 'Sue Ellen Francisco', cursive;
+$font-highlight: 'Amatic SC', cursive;
 
 $color-headlines: black;
 $color-item-border: red;
@@ -24,7 +23,7 @@ $color-main: gray;
 
 $roundness: 0 10px 20px 30px 40px 50px 60px;
 
-$link-color:white;
+$link-color: initial;
 $link-hover:#00aedb;
 $link-vertical-padding:15px;      //Controls Menu top & bottom padding
 $link-horizontal-padding:20px;    //Contols Menu left & right padding

@@ -1,5 +1,7 @@
 /*! sanitize.css v4.1.0 | CC0 License | github.com/jonathantneal/sanitize.css */
 
+/*$font-sub: '1Sue Ellen Francisco', cursive;
+$font-highlight: 'Amatic SC', cursive;*/
 article,
 aside,
 details,
@@ -50,7 +52,7 @@ html {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     cursor: default;
-    font-family: sans-serif;
+    font-family: 'Amatic SC', cursive;
     line-height: 1.5;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
@@ -301,7 +303,7 @@ textarea {
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 html {
-    font-family: sans-serif;
+    font-family: 'Amatic SC', cursive;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
@@ -534,7 +536,7 @@ html {
 body {
     padding: 0;
     margin: 0;
-    font-family: adelle, serif;
+    font-family: 'Sue Ellen Francisco', cursive;
     font-weight: 400;
     line-height: 1.5;
     color: #404040;
@@ -2741,7 +2743,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: sofia-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Amatic SC', cursive;
     font-weight: 690;
     font-style: normal;
     color: inherit;
@@ -2749,6 +2751,9 @@ h6 {
     margin-top: 0;
     margin-bottom: 1rem;
     line-height: 1.15
+}
+h4.subheader{
+  font-family: 'Sue Ellen Francisco', cursive;
 }
 
 h1 small,
@@ -3395,7 +3400,7 @@ textarea {
     padding: .44444rem;
     border: 1px solid #adadad;
     margin: 0 0 .88889rem;
-    font-family: sofia-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Amatic SC', cursive;
     font-size: .88889rem;
     color: #252525;
     background-color: #fefefe;
@@ -3639,7 +3644,7 @@ select {
     border: 1px solid #adadad;
     margin: 0 0 .88889rem;
     font-size: .88889rem;
-    font-family: sofia-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Amatic SC', cursive;
     line-height: normal;
     color: #252525;
     background-color: #fefefe;
@@ -4918,7 +4923,7 @@ section>:last-child:not(:first-child) {
 .nav--new a {
     display: inline-block;
     color: #fefefe;
-    font-family: sofia-pro, "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: 'Amatic SC', cursive;
 }
 
 .nav--new .current a {
@@ -4944,7 +4949,7 @@ section>:last-child:not(:first-child) {
 }
 
 .nav--new ul a {
-    font-size: .8em
+    font-size: 1.21em
 }
 
 .nav--new__home {
@@ -5135,7 +5140,7 @@ section>:last-child:not(:first-child) {
 
 .button,
 button {
-    font-family: sofia-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Amatic SC', cursive;
     border-radius: 100px;
     position: relative;
     top: -2px
@@ -5938,6 +5943,13 @@ a:hover .card__image-overlay.end-coloured:before {
     transition: opacity 5s linear;
     opacity: .8
 }
+.my-background{
+  background: #fff886;
+  background: -webkit-linear-gradient(bottom right,#fff886,#dd6161);
+  background: -moz-linear-gradient(bottom right,#fff886,#dd6161);
+  background: linear-gradient(bottom right,#fff886,#dd6161);
+            
+}
 
 .hero--videobackground .row {
     position: relative;
@@ -6130,7 +6142,7 @@ a:hover .card__image-overlay.end-dark:before {
     position: relative;
     max-width: 100%;
     min-width: 200px;
-    font-family: sofia-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Amatic SC', cursive;
     direction: ltr
 }
 
@@ -7770,7 +7782,7 @@ p.attribution a:hover {
 
 .section--split__inner--photo__location a {
     color: #fff;
-    font-family: sofia-pro, "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: 'Amatic SC', cursive;
 }
 
 .section--split__inner--photo__location a:active,
@@ -8260,7 +8272,7 @@ screen and (max-height:500px) {
     opacity: .6;
     font-style: italic;
     line-height: 120%;
-    font-family: sofia-pro, "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: 'Amatic SC', cursive;
 }
 
 @media screen and (min-width:40em) and (max-width:63.9375em) {
