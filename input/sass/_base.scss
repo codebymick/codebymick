@@ -21,3 +21,7 @@ div.foor{
     -webkit-transform: rotateY(130deg); /* Safari */
     transform: rotateY(130deg);
 }
+a:hover{
+  //cursor: url('./images/logo.png'), pointer;	
+  cursor: crosshair;
+}

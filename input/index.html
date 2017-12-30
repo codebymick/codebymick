@@ -8,6 +8,8 @@
     <meta name='format-detection' content='telephone=no'>
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Sue+Ellen+Francisco" rel="stylesheet">
     <link type='text/css' rel='stylesheet' href='style.min.css'>
+    <script src='js/script.min.js'></script>
+
     <!--  <link type='text/css' rel='stylesheet' href='responsive.css'>-->
 
     <!--ICO FILES -->
@@ -31,19 +33,7 @@
 
   <body>
     <script>
-        var vid = document.getElementById("bgvid");
-        vid.playbackRate = .6;
 
-        function vidFade() {
-            vid.classList.add("stopfade");
-        }
-
-        vid.addEventListener('ended', function() {
-            // only functional if "loop" is removed 
-            vid.pause();
-            // to capture IE10
-            vidFade();
-        });
     </script>
 
     <div id='header'>
@@ -58,21 +48,20 @@
       </nav>
     </div>
     
-    <div id="main">
-      <div id="blurb" class="outerWrap">
+    <div id="main" class="clearfix">
+      <div class="outerWrap">
         <video muted poster="https://www.codebymick.com/images/movie/desktop.png" id="bgvid" playsinline autoplay muted loop><source src="./images/movie/deck-vid.m4v" type="video/mov">
         </video>
-        <div class="container center half">  
+        <div class="container center">  
           <h1>Web Developer.</h1>
           <p>Pixel perfect conversion from image to website.</p><br>
-          <p>Full stack development with HTML, CSS, SASS, PHP, javascript, SQL.</p><p>&nbsp;</p><p>&nbsp;</p>
-          <p>I take images or mockups and bring them to virtual life as static, dynamic or CMS based websites.  </p>
+          <p>Full stack development with HTML, CSS, SASS, PHP, javascript, SQL.</p><p>&nbsp;</p><p>I  take images or mockups and bring them to virtual life as static, dynamic or CMS based websites.</p>
         </div>
       </div>
     </div>
     <div id="links">
       <div class="container gallery">
-        <a class="block mehler" href="https://www.mehler-ep.com/" target="_blank"><img src="./images/sites/mehler.png"><p>PHP script builds and maintain</p></a>
+        <a class="block" href="https://www.mehler-ep.com/" target="_blank"><img src="./images/sites/mehler.png"><p>PHP scripts, build and maintain</p></a>
         
         <a class="block" href="https://www.aktiv-fitness.net/" target="_blank"><img src="./images/sites/aktiv.png"><p>PHP maintenance, styling edits, image work</p></a>
         
@@ -86,7 +75,7 @@
         
         <a class="block" href="http://freddymutnosh.com/ubcool/" target="_blank"><img src="./images/sites/ubcoolSCN.png"><p>built from ground up...from PSD with HTML, js, jquery</p></a>
         
-        <a class="block" href="https://chrome.google.com/webstore/detail/r3fresh/kedglhfbgkhggkbcabnggfaafboeckno" target="_blank"><img src="./images/sites/r3fresh.jpg"><p>built chrome extensionfor giggles, using js & html.</p></a>
+        <a class="block" href="https://chrome.google.com/webstore/detail/r3fresh/kedglhfbgkhggkbcabnggfaafboeckno" target="_blank"><img src="./images/sites/r3fresh.png"><p>built chrome extensionfor giggles, using js & html.</p></a>
         
         <a class="block" href="https://www.mywaybettyford.com/" target="_blank"><img src="./images/sites/mwbf.png"><p>from image to custom wordpress theme</p></a>
         
@@ -112,7 +101,7 @@
         
         <a class="block" href="" target="_blank"><img src="./images/sites/doktor.png"><p>PHP, js and styling edits</p></a>
         
-        <a class="block" href="http://dr-przybylek.de.w014fb57.kasserver.com/" target="_blank"><img src="./images/sites/przybylek.png"><p>full stack - from PSD to wordpress CMS - in development</p></a>
+        <a class="block" href="http://dr-przybylek.de.w014fb57.kasserver.com/" target="_blank"><img src="./images/sites/przybylek.png" style="cursor: not-allowed!important;"><p>full stack - from PSD to wordpress CMS - in development</p></a>
         
 
       </div>
