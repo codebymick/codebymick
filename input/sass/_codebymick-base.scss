@@ -415,7 +415,7 @@ header li.active {
 #header .background {
     background: url(../images/movie/codebymick-anim3.png) no-repeat;
     height: 85px;
-    width: 40%;
+    width: 230px;
     top: 0;
     left: 0;
     transform: scale(.5);
@@ -444,16 +444,6 @@ nav {
     z-index: 9;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-    z-index: 3;
-    width: 100%;
-    float: right;
-    padding-bottom: 0;
-}
-
 nav li {
     text-transform: uppercase;
     z-index: 999;
@@ -466,17 +456,7 @@ nav li a,
     text-decoration: none;
     padding: 0 10px 0 10px;
     font-family: 'Amatic SC', cursive;
-}
-
-nav li a :hover {
-    background-color: #218307;
-    border-radius: 20px;
-    line-height: 20px;
-    color: limegreen;
-}
-
-.dropbtn {
-    color: #fff;
+    font-size: 26px;
 }
 
 #burger {
@@ -781,7 +761,8 @@ video {
   display: inline-block;
   vertical-align: text-top;
   padding: 10px 5px;
-  width: 30.3%;
+  width: 40.3%;
+  position: relative;
 }
 .inner.bloq{
   display: block;
@@ -799,22 +780,24 @@ video {
   height: 200px;
 }
 
-.row{
-  padding: 10px 0 0;
-  margin: 0;
+#links a p{
+  display:none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 40px;
+  background: rgba(0,0,0,.5);
+  font-weight: 100;
+  font-size: 45px;
 }
-.row.r1{
-  
+#links a:hover>p{
+  display:block;
 }
-.row.r2{
-  
-}
-.row.r3 .third{
-  width: 32%
-}
-.row.r4{
-  
-}
+
 .stopfade {
     opacity: .5;
 }
@@ -979,17 +962,8 @@ video {
 }
 
 #links a {
-    text-shadow: 1px 2px 15px #000;
-    -webkit-text-shadow: 1px 2px 15px #000;
-    -moz-text-shadow: 1px 2px 15px #000;
-    -o-text-shadow: 1px 2px 15px #000;
     font-weight: 600;
     font-size: 20px
-}
-
-#links a:hover {
-    -webkit-filter: invert(1);
-    opacity: .5
 }
 
 .frame-area {
@@ -1032,58 +1006,6 @@ video {
 .galleryIMG:hover {
     text-decoration: none;
     background-color: hidden;
-}
-
-.site1 {
-    background-image: url(../images/sites/r3fresh.jpg);
-}
-
-.site2 {
-    background-image: url(../images/sites/epsSCN.png);
-}
-
-.site3 {
-    background-image: url(../images/sites/kameleonSCN.png);
-}
-
-.site4 {
-    background-image: url(../images/sites/flowerSCN.png);
-}
-
-.site5 {
-    background-image: url(../images/sites/mebaySCN.png);
-}
-
-.site6 {
-    background-image: url(../images/sites/pflSCN.png);
-}
-
-.site7 {
-    background-image: url(../images/sites/quadSCN.png);
-}
-
-.site8 {
-    background-image: url(../images/sites/ubcoolSCN.png);
-}
-
-.site9 {
-    background-image: url(../images/sites/CVoogle.png);
-}
-
-.site10 {
-    background-image: url(../images/sites/links.png);
-}
-
-.site11 {
-    background-image: url(../images/sites/amznSCN.png);
-}
-
-.site12 {
-    background-image: url(../images/sites/freddymutnoshSCN.png);
-}
-
-.site13 {
-    background-image: url(../images/sites/.png);
 }
 
 
